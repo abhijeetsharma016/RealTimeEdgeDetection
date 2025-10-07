@@ -1,0 +1,3 @@
+C:/Users/abhij/OneDrive/Desktop/Android Things/kotlin/RealTimeEdgeDetection/app/.cxx/Debug/312b4m23/x86/CMakeFiles/realtimeedgedetection.dir
+C:/Users/abhij/OneDrive/Desktop/Android Things/kotlin/RealTimeEdgeDetection/app/.cxx/Debug/312b4m23/x86/CMakeFiles/edit_cache.dir
+C:/Users/abhij/OneDrive/Desktop/Android Things/kotlin/RealTimeEdgeDetection/app/.cxx/Debug/312b4m23/x86/CMakeFiles/rebuild_cache.dir

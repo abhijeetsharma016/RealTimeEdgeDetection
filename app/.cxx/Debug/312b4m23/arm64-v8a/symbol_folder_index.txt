@@ -1,0 +1,1 @@
+C:\Users\abhij\OneDrive\Desktop\Android Things\kotlin\RealTimeEdgeDetection\app\build\intermediates\cxx\Debug\312b4m23\obj\arm64-v8a

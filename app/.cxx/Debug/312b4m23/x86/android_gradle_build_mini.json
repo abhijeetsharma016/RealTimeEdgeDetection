@@ -1,0 +1,27 @@
+{
+  "buildFiles": [
+    "C:\\Users\\abhij\\OneDrive\\Desktop\\Android Things\\kotlin\\RealTimeEdgeDetection\\app\\src\\main\\cpp\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "C:\\Coding\\SDK\\cmake\\3.22.1\\bin\\ninja.exe",
+      "-C",
+      "C:\\Users\\abhij\\OneDrive\\Desktop\\Android Things\\kotlin\\RealTimeEdgeDetection\\app\\.cxx\\Debug\\312b4m23\\x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "C:\\Coding\\SDK\\cmake\\3.22.1\\bin\\ninja.exe",
+    "-C",
+    "C:\\Users\\abhij\\OneDrive\\Desktop\\Android Things\\kotlin\\RealTimeEdgeDetection\\app\\.cxx\\Debug\\312b4m23\\x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "realtimeedgedetection::@6890427a1f51a3e7e1df": {
+      "artifactName": "realtimeedgedetection",
+      "abi": "x86",
+      "output": "C:\\Users\\abhij\\OneDrive\\Desktop\\Android Things\\kotlin\\RealTimeEdgeDetection\\app\\build\\intermediates\\cxx\\Debug\\312b4m23\\obj\\x86\\librealtimeedgedetection.so",
+      "runtimeFiles": []
+    }
+  }
+}

@@ -1,0 +1,18 @@
+                        -HC:\Users\abhij\OneDrive\Desktop\Android Things\kotlin\RealTimeEdgeDetection\app\src\main\cpp
+-DCMAKE_SYSTEM_NAME=Android
+-DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+-DCMAKE_SYSTEM_VERSION=24
+-DANDROID_PLATFORM=android-24
+-DANDROID_ABI=x86
+-DCMAKE_ANDROID_ARCH_ABI=x86
+-DANDROID_NDK=C:\Coding\SDK\ndk\26.1.10909125
+-DCMAKE_ANDROID_NDK=C:\Coding\SDK\ndk\26.1.10909125
+-DCMAKE_TOOLCHAIN_FILE=C:\Coding\SDK\ndk\26.1.10909125\build\cmake\android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=C:\Coding\SDK\cmake\3.22.1\bin\ninja.exe
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=C:\Users\abhij\OneDrive\Desktop\Android Things\kotlin\RealTimeEdgeDetection\app\build\intermediates\cxx\Debug\312b4m23\obj\x86
+-DCMAKE_RUNTIME_OUTPUT_DIRECTORY=C:\Users\abhij\OneDrive\Desktop\Android Things\kotlin\RealTimeEdgeDetection\app\build\intermediates\cxx\Debug\312b4m23\obj\x86
+-DCMAKE_BUILD_TYPE=Debug
+-BC:\Users\abhij\OneDrive\Desktop\Android Things\kotlin\RealTimeEdgeDetection\app\.cxx\Debug\312b4m23\x86
+-GNinja
+                        Build command args: []
+                        Version: 2
