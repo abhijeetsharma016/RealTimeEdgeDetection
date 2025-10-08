@@ -5,7 +5,7 @@ cmake_minimum_required(VERSION 3.10)
 project("realtimedetector")
 
 # IMPORTANT: Set this path to where your OpenCV Android SDK is located
-set(OpenCV_DIR C:/SDKs/OpenCV-android-sdk/sdk/native/jni) # <-- CHANGE THIS PATH
+set(OpenCV_DIR C:/Coding/SDK/opencv-4.12.0-android-sdk/OpenCV-android-sdk/sdk/native/jni) # <-- MODIFIED THIS PATH
 find_package(OpenCV REQUIRED)
 
 include_directories(${OpenCV_INCLUDE_DIRS})

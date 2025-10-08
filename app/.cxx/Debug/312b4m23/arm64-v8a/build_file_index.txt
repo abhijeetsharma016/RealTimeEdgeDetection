@@ -1,1 +1,0 @@
-C:\Users\abhij\OneDrive\Desktop\Android Things\kotlin\RealTimeEdgeDetection\app\src\main\cpp\CMakeLists.txt

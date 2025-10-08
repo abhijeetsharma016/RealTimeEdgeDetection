@@ -1,0 +1,1 @@
+C:\Coding\RealTimeEdgeDetection\app\build\intermediates\cxx\Debug\5532b314\obj\arm64-v8a
