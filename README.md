@@ -45,6 +45,8 @@ The data flows through the app in the following sequence:
 
 The project follows a modular structure to separate concerns.
 
+```
+
 RealTimeEdgeDetection/
 ├── app/
 │   ├── build.gradle.kts
@@ -52,23 +54,22 @@ RealTimeEdgeDetection/
 │       ├── main/
 │           ├── java/com/example/realtimeedgedetection/
 │           │   ├── gl/
-│           │   │   └── MainRenderer.kt    # OpenGL Renderer setup
-│           │   ├── MainActivity.kt        # Main Android Activity, CameraX setup
-│           │   └── JNIBridge.kt           # JNI function definitions
+│           │   │   └── MainRenderer.kt    \# OpenGL Renderer setup
+│           │   ├── MainActivity.kt        \# Main Android Activity, CameraX setup
+│           │   └── JNIBridge.kt           \# JNI function definitions
 │           ├── cpp/
-│           │   ├── CMakeLists.txt         # NDK build script for C++
-│           │   └── native-lib.cpp         # C++ code with JNI, OpenCV, and OpenGL
+│           │   ├── CMakeLists.txt         \# NDK build script for C++
+│           │   └── native-lib.cpp         \# C++ code with JNI, OpenCV, and OpenGL
 │           └── res/
 │               └── ...
-├── web/                                   # TypeScript viewer
+├── web/                                   \# TypeScript viewer
 │   ├── index.html
 │   ├── src/
 │   │   └── main.ts
 │   └── tsconfig.json
 └── README.md
 
-
----
+```
 ## ⚙️ Setup and Build Instructions
 
 Follow these steps to build and run the project.
