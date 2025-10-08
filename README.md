@@ -44,3 +44,59 @@ The data flows through the app in the following sequence:
 ## 📂 Project Structure
 
 The project follows a modular structure to separate concerns.
+
+RealTimeEdgeDetection/
+├── app/
+│   ├── build.gradle.kts
+│   └── src/
+│       ├── main/
+│           ├── java/com/example/realtimeedgedetection/
+│           │   ├── gl/
+│           │   │   └── MainRenderer.kt    # OpenGL Renderer setup
+│           │   ├── MainActivity.kt        # Main Android Activity, CameraX setup
+│           │   └── JNIBridge.kt           # JNI function definitions
+│           ├── cpp/
+│           │   ├── CMakeLists.txt         # NDK build script for C++
+│           │   └── native-lib.cpp         # C++ code with JNI, OpenCV, and OpenGL
+│           └── res/
+│               └── ...
+├── web/                                   # TypeScript viewer
+│   ├── index.html
+│   ├── src/
+│   │   └── main.ts
+│   └── tsconfig.json
+└── README.md
+
+
+---
+## ⚙️ Setup and Build Instructions
+
+Follow these steps to build and run the project.
+
+**Prerequisites**:
+* Android Studio (latest stable version recommended)
+* Android NDK and CMake installed via the SDK Manager.
+* Download the **OpenCV Android SDK** from the [official OpenCV website](https://opencv.org/releases/).
+
+**Steps**:
+1.  Clone the repository to your local machine.
+2.  **Configure OpenCV Path**:
+    * Open the file `app/src/main/cpp/CMakeLists.txt`.
+    * **IMPORTANT:** You must update the path in the `set(OpenCV_DIR ...)` command to point to the `sdk/native/jni` folder inside the OpenCV Android SDK you downloaded.
+        ```cmake
+        # Example:
+        set(OpenCV_DIR C:/path/to/your/OpenCV-android-sdk/sdk/native/jni)
+        ```
+3.  Open the project in Android Studio, allow Gradle to sync.
+4.  Build and run the app on a physical Android device.
+
+---
+## 🌐 Web Viewer
+
+The included web viewer is a minimal demonstration of displaying a processed frame.
+
+**To run it**:
+1.  Navigate to the `/web` directory in your terminal.
+2.  Install TypeScript if you haven't already: `npm install -g typescript`.
+3.  Compile the TypeScript file: `tsc`.
+4.  Open the `index.html` file in a web browser.
