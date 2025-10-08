@@ -6,7 +6,7 @@ This Android application is a solution for the "Android + OpenCV-C++ + OpenGL As
 
 Here is the application running and processing a live camera feed to detect edges.
 
-<img width="540" height="1230" alt="image" src="https://github.com/user-attachments/assets/551fcbc0-489c-43ee-965d-8bdcbab9ca19" />
+<img width="230" height="700" alt="image" src="https://github.com/user-attachments/assets/551fcbc0-489c-43ee-965d-8bdcbab9ca19" />
 
 
 ---
